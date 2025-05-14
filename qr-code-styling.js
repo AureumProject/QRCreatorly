@@ -1,0 +1,1 @@
+// Placeholder: Use qr-code-styling from https://github.com/kozakdenys/qr-code-styling

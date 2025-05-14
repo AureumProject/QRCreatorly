@@ -1,0 +1,38 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+label {
+  margin-top: 10px;
+}
+input, select, button {
+  margin-top: 5px;
+  padding: 8px;
+  font-size: 1em;
+}
+#qrcode {
+  margin-top: 20px;
+}
+.qr-container {
+  position: relative;
+  display: inline-block;
+}
+.qr-border .top-text,
+.qr-border .bottom-text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+.qr-border .top-text {
+  top: -30px;
+}
+.qr-border .bottom-text {
+  bottom: -30px;
+}
